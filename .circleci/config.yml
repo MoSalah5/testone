@@ -234,9 +234,6 @@ jobs:
     steps:
       - checkout
       - install_aws_cli
-#      - install_nodejs
-#      - restore_cache:
-#          keys: [backend-build]
       - run:
           name: check environment variables
           command: |
